@@ -80,6 +80,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "takeLoan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "amount",
 						"type": "uint256"
 					}
@@ -118,11 +131,11 @@
 	},
 	"sources": {
 		"cryptoloan.sol": {
-			"keccak256": "0x096f8faa183573a7da079ff299cb0bf9afde593139dbe31a13f56f6db50d3fb7",
+			"keccak256": "0x6d57f9912c2fb35948e71e726f1a0268c2feff0055fe596af7fc235ae082234a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://213aa3135b9e7bba0d55452f1ebd26a2892536fd69d7b5b2fee21a121d127599",
-				"dweb:/ipfs/QmNd3o1HB6PMFCVtdox3uJogjhXBPJG8KgjpgzaFFHB6J5"
+				"bzz-raw://1874c2de0a8ae6239cffa27ea76f6f9a37bab4239d359434eac9266440e13c74",
+				"dweb:/ipfs/QmSXLiJRzdFrSGbxRHoCcCekxucnEqgw4xMAuzH49ReP6n"
 			]
 		}
 	},

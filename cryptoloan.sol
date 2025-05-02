@@ -30,4 +30,12 @@ contract CryptoLoan {
     (bool sent, ) = payable(msg.sender).call{value: amount}("");
     require(sent, "Failed to send Ether");
    }
+
+   function takeLoan(uint _amount ) public {
+    uint loanLimit = highestBalances[msg.sender] + highestBalances[msg.sender] *  50 / 100;
+    require(_amount <= loanLimit, "Loan limit exceeded");
+    require(_amount < getBalance(), "Insufficient balance in the smart contract");
+    balances[msg.sender] += _amount;
+   }
+
 }
