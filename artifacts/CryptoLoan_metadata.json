@@ -70,6 +70,56 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "isLoanOverdue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "loans",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dueDate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "repayLoan",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "store",
 				"outputs": [],
@@ -81,6 +131,11 @@
 					{
 						"internalType": "uint256",
 						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "periodInDays",
 						"type": "uint256"
 					}
 				],
@@ -131,11 +186,11 @@
 	},
 	"sources": {
 		"cryptoloan.sol": {
-			"keccak256": "0x6d57f9912c2fb35948e71e726f1a0268c2feff0055fe596af7fc235ae082234a",
+			"keccak256": "0xd36efa8aeedfe2a3444c692e0a9bf73e8546bbf7cc3b9de864b31000f17dcafd",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1874c2de0a8ae6239cffa27ea76f6f9a37bab4239d359434eac9266440e13c74",
-				"dweb:/ipfs/QmSXLiJRzdFrSGbxRHoCcCekxucnEqgw4xMAuzH49ReP6n"
+				"bzz-raw://5f3f8d83fd441c32ac695049db4db6f637f4b74c1d34ac4e736fe234dea7e5a2",
+				"dweb:/ipfs/QmakM7jwaiYTrfK4XUSVB8TcMBZ7SU8PVe21keYUyuRnai"
 			]
 		}
 	},
