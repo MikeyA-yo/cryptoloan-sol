@@ -39,9 +39,54 @@
 			},
 			{
 				"inputs": [],
+				"name": "getHighestBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "highestBalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "store",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -73,11 +118,11 @@
 	},
 	"sources": {
 		"cryptoloan.sol": {
-			"keccak256": "0xa40c924a81c691f48c712c5ea6469ac4646391094b557001b69b91106b4c57fe",
+			"keccak256": "0x096f8faa183573a7da079ff299cb0bf9afde593139dbe31a13f56f6db50d3fb7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b35381891e4bd57f54f814a5774d8e60d1fa0be5841e0df09560a949f692d3fc",
-				"dweb:/ipfs/QmWfagexCh1gRvDoy5SEnTa9eUZJcFBUBoRZmRHSCtyDfB"
+				"bzz-raw://213aa3135b9e7bba0d55452f1ebd26a2892536fd69d7b5b2fee21a121d127599",
+				"dweb:/ipfs/QmNd3o1HB6PMFCVtdox3uJogjhXBPJG8KgjpgzaFFHB6J5"
 			]
 		}
 	},
