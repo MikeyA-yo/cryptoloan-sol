@@ -90,4 +90,9 @@ contract CryptoLoan {
     function getHighestBalance() public view returns (uint) {
         return highestBalances[msg.sender];
     }
+
+    // Get user balance
+    function getUserBalance() public  view  returns (uint){
+        return balances[msg.sender];
+    }
 }

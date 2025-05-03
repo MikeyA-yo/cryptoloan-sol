@@ -139,6 +139,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getUserBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -274,11 +287,11 @@
 	},
 	"sources": {
 		"cryptoloan.sol": {
-			"keccak256": "0x37e7b81d2b2a7c3c2f0bc97bf5b43ea3efd959de28e900138415cce026766d5e",
+			"keccak256": "0x7b36710f9faabc75386eaec0c0cc692b5315fcf3e994cd11fd0e450fe30446da",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://102b15db529f9ec8d9d6449e10a0ced5b3f0b997a6fd26a12af5f7c19f032e93",
-				"dweb:/ipfs/QmUpubuqH47aqf5bZDNCXd6BsN8CxgYr3zq5pu4Vg55ao5"
+				"bzz-raw://71da46662d67f1dc2e079c6b336dc173be538a2766a521b879bb06ca3f308ad7",
+				"dweb:/ipfs/QmWzn7YPXXH9EeEoHcK8KzMuZ44eSkeLsE1cLuonM6mys4"
 			]
 		}
 	},
